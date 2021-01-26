@@ -1,6 +1,5 @@
 import React from 'react';
 import Security from './icons/Security'
-import Icon4 from './icons/icon4'
 import styles from '../styles/Home.module.css'
 import {Box, Flex, SimpleGrid, Text} from '@chakra-ui/react'
 import Fingerprient from './icons/Fingerprient';
@@ -67,7 +66,7 @@ function section1() {
                 align='center'
                 transition='all 0.5s ease'
                 rounded='sm'
-                _hover={{bgColor:'purple.800', h:'105px' 
+                _hover={{bgColor:'purple.800', h:'105px' ,mb:'15px'
             
             }}
                 mx={['10px']}
@@ -90,7 +89,7 @@ function section1() {
                 align='center'
                 transition='all 0.5s ease'
                 rounded='sm'
-                _hover={{bgColor:'purple.800', h:'105px' 
+                _hover={{bgColor:'purple.800', h:'105px' ,mb:'15px'
             
             }}
                 mx={['10px']}
@@ -113,14 +112,14 @@ function section1() {
                 align='center'
                 transition='all 0.5s ease'
                 rounded='sm'
-                _hover={{bgColor:'purple.800', h:'105px' 
+                _hover={{bgColor:'purple.800', h:'105px' ,mb:'15px'
             
             }}
                 mx={['10px']}
                 mt={['40px']}
                 className={styles.section1card3}
                 > 
-               <Fingerprient  fill='#ff2c9c'/>
+               <Security  fill='#ff2c9c'/>
                 <Text
                 className={styles.cardtext3}
                 fontWeight='bold'
@@ -138,7 +137,7 @@ function section1() {
                 align='center'
                 transition='all 0.5s ease'
                 rounded='sm'
-                _hover={{bgColor:'purple.800', h:'105px' 
+                _hover={{bgColor:'purple.800', h:'105px' , mb:'15px'
             
             }}
                 mx={['10px']}

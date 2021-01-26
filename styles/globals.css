@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+.section3box2{
+  transition: all 0.3s ease;
+}
+.section3box1:hover .section3box2{
+  right:0;
+  left:0;
+}
