@@ -2,7 +2,6 @@ import React from 'react';
 import Security from './icons/Security'
 import styles from '../styles/Home.module.css'
 import {Box, Flex, SimpleGrid, Text} from '@chakra-ui/react'
-import Fingerprient from './icons/Fingerprient';
 
 function section1() {
     return (
